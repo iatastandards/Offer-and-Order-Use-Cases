@@ -2,21 +2,38 @@
 	<n1:AugmentationPoint>
 		<cns:auto-generated_for_wildcard/>
 	</n1:AugmentationPoint>
-	<n1:Party>
-		<cns:Sender>
-			<cns:TravelAgency>
-				<cns:AgencyID>12345678</cns:AgencyID>
-				<cns:IATA_Number>98765432</cns:IATA_Number>
-				<cns:Name>XX Agency</cns:Name>
-				<cns:PseudoCityID>XXXX</cns:PseudoCityID>
-				<cns:TravelAgent>
-					<cns:TravelAgentID>001TEST</cns:TravelAgentID>
-					<cns:TypeCode>TestAgency</cns:TypeCode>
-				</cns:TravelAgent>
-				<cns:TypeCode>TestAgency</cns:TypeCode>
-			</cns:TravelAgency>
-		</cns:Sender>
-	</n1:Party>
+	<n1:DistributionChain>
+		<cns:DistributionChainLink>
+			<cns:Ordinal>1</cns:Ordinal>
+			<cns:OrgRole>Seller</cns:OrgRole>
+			<cns:ParticipatingOrg>
+				<cns:Name>XYZ Agency</cns:Name>
+				<cns:OrgID>1245678</cns:OrgID>
+			</cns:ParticipatingOrg>
+			<cns:SalesAgent>
+				<cns:SalesAgentID>agentuser</cns:SalesAgentID>
+			</cns:SalesAgent>
+			<cns:SalesBranch>
+				<cns:SalesBranchID>AE50</cns:SalesBranchID>
+			</cns:SalesBranch>
+		</cns:DistributionChainLink>
+		<cns:DistributionChainLink>
+			<cns:Ordinal>2</cns:Ordinal>
+			<cns:OrgRole>Distributor</cns:OrgRole>
+			<cns:ParticipatingOrg>
+				<cns:Name>Farelogix</cns:Name>
+				<cns:OrgID>F1</cns:OrgID>
+			</cns:ParticipatingOrg>
+		</cns:DistributionChainLink>
+		<cns:DistributionChainLink>
+			<cns:Ordinal>3</cns:Ordinal>
+			<cns:OrgRole>Carrier</cns:OrgRole>
+			<cns:ParticipatingOrg>
+				<cns:Name>XXXX Airlines</cns:Name>
+				<cns:OrgID>XX</cns:OrgID>
+			</cns:ParticipatingOrg>
+		</cns:DistributionChainLink>
+	</n1:DistributionChain>
 	<!--<n1:PayloadAttributes> < This needs to be added in the future use cases
 		<cns:RetransmissionInd>true</cns:RetransmissionInd>
 		<cns:Timestamp>2021-12-17T09:30:47Z</cns:Timestamp>
