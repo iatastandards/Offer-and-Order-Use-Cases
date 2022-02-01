@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>	
+<n1:IATA_OrderReshopRQ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://www.iata.org/IATA/2015/EASD/00/IATA_OffersAndOrdersMessage" xmlns:cns="http://www.iata.org/IATA/2015/EASD/00/IATA_OffersAndOrdersCommonTypes" xsi:schemaLocation="http://www.iata.org/IATA/2015/EASD/00/IATA_OffersAndOrdersMessage ../IATA_OrderReshopRQ.xsd">
+	<n1:DistributionChain>
+		<cns:DistributionChainLink>
+			<cns:Ordinal>0</cns:Ordinal>
+			<cns:OrgRole>Distributor</cns:OrgRole>
+			<cns:ParticipatingOrg>
+				<cns:Name>token</cns:Name>
+				<cns:OrgID>token</cns:OrgID>
+			</cns:ParticipatingOrg>
+		</cns:DistributionChainLink>
+	</n1:DistributionChain>
+	<n1:Request>
+		<cns:OrderRefID>XB000A1B2C3D4</cns:OrderRefID>
+		<cns:UpdateOrder>
+			<cns:ReshopOrder>
+				<cns:ReshopOrderChoice>
+					<cns:ServiceOrder>
+						<cns:AddOfferItems>
+							<cns:FlightRequest>
+								<cns:FlightRequestOriginDestinationsCriteria>
+									<cns:OriginDestCriteria>
+										<cns:DestArrivalCriteria>
+											<cns:IATA_LocationCode>JFK</cns:IATA_LocationCode>
+										</cns:DestArrivalCriteria>
+										<cns:OriginDepCriteria>
+											<cns:Date>2022-06-08</cns:Date>  <!-- Date for which the customer wants to find alternate flights for SRV01 --> 
+											<cns:IATA_LocationCode>LHR</cns:IATA_LocationCode>
+										</cns:OriginDepCriteria>
+									</cns:OriginDestCriteria>
+									<cns:OriginDestCriteria>
+										<cns:DestArrivalCriteria>
+											<cns:IATA_LocationCode>LHR</cns:IATA_LocationCode>
+										</cns:DestArrivalCriteria>
+										<cns:OriginDepCriteria>
+											<cns:Date>2022-06-15</cns:Date>  <!-- Date for which the customer wants to find alternate flights for SRV02 --> 
+											<cns:IATA_LocationCode>JFK</cns:IATA_LocationCode>
+										</cns:OriginDepCriteria>
+									</cns:OriginDestCriteria>
+								</cns:FlightRequestOriginDestinationsCriteria>
+							</cns:FlightRequest>
+						</cns:AddOfferItems>
+						<cns:DeleteOrderItem>
+							<cns:OrderItemRefID>ORDERITEM001</cns:OrderItemRefID>
+						</cns:DeleteOrderItem>
+					</cns:ServiceOrder>
+				</cns:ReshopOrderChoice>
+			</cns:ReshopOrder>
+		</cns:UpdateOrder>
+	</n1:Request>
+</n1:IATA_OrderReshopRQ>

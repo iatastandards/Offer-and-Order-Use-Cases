@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n1:IATA_OrderQuoteRQ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://www.iata.org/IATA/2015/EASD/00/IATA_OffersAndOrdersMessage" xmlns:cns="http://www.iata.org/IATA/2015/EASD/00/IATA_OffersAndOrdersCommonTypes" xsi:schemaLocation="http://www.iata.org/IATA/2015/EASD/00/IATA_OffersAndOrdersMessage ../IATA_OrderQuoteRQ.xsd">
+	<n1:DistributionChain>
+		<cns:DistributionChainLink>
+			<cns:Ordinal>0</cns:Ordinal>
+			<cns:OrgRole>Distributor</cns:OrgRole>
+			<cns:ParticipatingOrg>
+				<cns:Name>token</cns:Name>
+				<cns:OrgID>token</cns:OrgID>
+			</cns:ParticipatingOrg>
+		</cns:DistributionChainLink>
+	</n1:DistributionChain>
+	<n1:Payload>
+		<cns:ExistingOrder>
+			<cns:OrderID>XB000A1B2C3D4</cns:OrderID>
+			<cns:OwnerCode>XB</cns:OwnerCode>
+		</cns:ExistingOrder>
+		<cns:SelectedOffers>
+			<cns:OfferRefID>RESHOP_OFFER001</cns:OfferRefID>
+			<cns:OwnerCode>XB</cns:OwnerCode>
+			<cns:SelectedOfferItem>
+				<cns:OfferItemRefID>XB123A1B2C3D4-OFFERITEM-EXCHANGE-1</cns:OfferItemRefID>
+				<cns:PaxRefID>Pax1</cns:PaxRefID>
+			</cns:SelectedOfferItem>
+		</cns:SelectedOffers>
+	</n1:Payload>
+</n1:IATA_OrderQuoteRQ>
