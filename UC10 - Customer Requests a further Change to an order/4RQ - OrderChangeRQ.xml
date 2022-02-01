@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IATA_OrderChangeRQ xmlns="http://www.iata.org/IATA/2015/EASD/00/IATA_OffersAndOrdersMessage" xmlns:cns="http://www.iata.org/IATA/2015/EASD/00/IATA_OffersAndOrdersCommonTypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/2015/EASD/00/IATA_OffersAndOrdersMessage ../IATA_OrderChangeRQ.xsd">
+	<DistributionChain>
+		<cns:DistributionChainLink>
+			<cns:Ordinal>1</cns:Ordinal>
+			<cns:OrgRole>Seller</cns:OrgRole>
+			<cns:ParticipatingOrg>
+				<cns:OrgID>12345678</cns:OrgID>
+			</cns:ParticipatingOrg>
+		</cns:DistributionChainLink>
+	</DistributionChain>
+	<Request>
+		<cns:ChangeOrderChoice>
+			<cns:AcceptSelectedQuotedOfferList>
+				<cns:SelectedPricedOffer>
+					<cns:OfferRefID>REQUOTED_OFFER001</cns:OfferRefID>
+					<cns:OwnerCode>XB</cns:OwnerCode>
+					<cns:SelectedOfferItem>
+						<cns:OfferItemRefID>XB123A1B2C3D4-OFFERITEM-EXCHANGE-1</cns:OfferItemRefID>
+						<cns:PaxRefID>Pax1</cns:PaxRefID>
+					</cns:SelectedOfferItem>
+				</cns:SelectedPricedOffer>
+			</cns:AcceptSelectedQuotedOfferList>
+		</cns:ChangeOrderChoice>
+		<cns:Order>
+			<cns:OrderID>XB999A1B2C3D4</cns:OrderID>
+			<cns:OrderVersionNumber>1</cns:OrderVersionNumber>
+			<cns:OwnerCode>XB</cns:OwnerCode>
+		</cns:Order>
+		<cns:PaymentFunctions/>
+	</Request>
+</IATA_OrderChangeRQ>

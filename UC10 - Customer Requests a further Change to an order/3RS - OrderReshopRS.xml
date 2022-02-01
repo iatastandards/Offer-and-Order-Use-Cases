@@ -1,0 +1,395 @@
+<n1:IATA_OrderReshopRS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://www.iata.org/IATA/2015/EASD/00/IATA_OffersAndOrdersMessage" xmlns:cns="http://www.iata.org/IATA/2015/EASD/00/IATA_OffersAndOrdersCommonTypes" xsi:schemaLocation="http://www.iata.org/IATA/2015/EASD/00/IATA_OffersAndOrdersMessage ../IATA_OrderReshopRS.xsd">
+	<n1:Response>
+		<cns:DataLists>
+			<cns:BaggageAllowanceList>
+				<cns:BaggageAllowance>
+					<cns:ApplicablePartyText>Traveler</cns:ApplicablePartyText>
+					<cns:BaggageAllowanceID>BAG-1</cns:BaggageAllowanceID>
+					<cns:BDC>
+						<cns:CarrierDesigCode>XB</cns:CarrierDesigCode>
+					</cns:BDC>
+					<cns:DescText>CHECKED-IN Baggage allowance</cns:DescText>
+					<cns:MaximumDimensionAllowance>
+						<cns:LengthUnitOfMeasurement>CMT</cns:LengthUnitOfMeasurement>
+						<cns:LinearMeasure>126</cns:LinearMeasure>
+					</cns:MaximumDimensionAllowance>
+					<cns:PieceAllowance>
+						<cns:TotalQty>1</cns:TotalQty>
+					</cns:PieceAllowance>
+					<cns:TypeCode>Checked</cns:TypeCode>
+					<cns:WeightAllowance>
+						<cns:MaximumWeightMeasure>23</cns:MaximumWeightMeasure>
+						<cns:WeightUnitOfMeasurement>KGM</cns:WeightUnitOfMeasurement>
+					</cns:WeightAllowance>
+					<cns:WeightAllowance>
+						<cns:MaximumWeightMeasure>51</cns:MaximumWeightMeasure>
+						<cns:WeightUnitOfMeasurement>LBR</cns:WeightUnitOfMeasurement>
+					</cns:WeightAllowance>
+				</cns:BaggageAllowance>
+			</cns:BaggageAllowanceList>
+			<cns:DatedMarketingSegmentList>
+				<cns:DatedMarketingSegment>
+					<cns:Arrival>
+						<cns:AircraftScheduledDateTime>2022-06-08T00:55:00-04:00</cns:AircraftScheduledDateTime>
+						<cns:IATA_LocationCode>JFK</cns:IATA_LocationCode>
+						<cns:StationName>New York J F Kennedy</cns:StationName>
+						<cns:TerminalName>7</cns:TerminalName>
+					</cns:Arrival>
+					<cns:CarrierDesigCode>XB</cns:CarrierDesigCode>
+					<cns:CarrierName>XB Airlines</cns:CarrierName>
+					<cns:DatedMarketingSegmentId>MKTSEG-1</cns:DatedMarketingSegmentId>
+					<cns:DatedOperatingSegmentRefId>OPESEG-1</cns:DatedOperatingSegmentRefId>
+					<cns:Dep>
+						<cns:AircraftScheduledDateTime>2022-06-07T22:00:00+01:00</cns:AircraftScheduledDateTime>
+						<cns:IATA_LocationCode>LHR</cns:IATA_LocationCode>
+						<cns:StationName>London Heathrow</cns:StationName>
+						<cns:TerminalName>5</cns:TerminalName>
+					</cns:Dep>
+					<cns:MarketingCarrierFlightNumberText>0015</cns:MarketingCarrierFlightNumberText>
+				</cns:DatedMarketingSegment>
+				<cns:DatedMarketingSegment>
+					<cns:Arrival>
+						<cns:AircraftScheduledDateTime>2022-06-16T00:55:00+01:00</cns:AircraftScheduledDateTime>
+						<cns:IATA_LocationCode>LHR</cns:IATA_LocationCode>
+						<cns:StationName>London Heathrow</cns:StationName>
+						<cns:TerminalName>5</cns:TerminalName>
+					</cns:Arrival>
+					<cns:CarrierDesigCode>XB</cns:CarrierDesigCode>
+					<cns:CarrierName>XB Airlines</cns:CarrierName>
+					<cns:DatedMarketingSegmentId>MKTSEG-2</cns:DatedMarketingSegmentId>
+					<cns:DatedOperatingSegmentRefId>OPESEG-2</cns:DatedOperatingSegmentRefId>
+					<cns:Dep>
+						<cns:AircraftScheduledDateTime>2022-06-15T22:00:00-04:00</cns:AircraftScheduledDateTime>
+						<cns:IATA_LocationCode>JFK</cns:IATA_LocationCode>
+						<cns:StationName>New York J F Kennedy</cns:StationName>
+						<cns:TerminalName>7</cns:TerminalName>
+					</cns:Dep>
+					<cns:MarketingCarrierFlightNumberText>0016</cns:MarketingCarrierFlightNumberText>
+				</cns:DatedMarketingSegment>
+			</cns:DatedMarketingSegmentList>
+			<cns:DatedOperatingLegList>
+					<cns:DatedOperatingLeg>
+					<cns:Arrival>
+						<cns:IATA_LocationCode>JFK</cns:IATA_LocationCode>
+					</cns:Arrival>
+					<cns:DatedOperatingLegID>LEG-1</cns:DatedOperatingLegID>
+					<cns:Dep>
+						<cns:IATA_LocationCode>LHR</cns:IATA_LocationCode>
+					</cns:Dep>
+					<cns:DistanceMeasure UnitCode="KM">5536</cns:DistanceMeasure>
+					<cns:IATA_AircraftType>
+						<cns:IATA_AircraftTypeCode>35J</cns:IATA_AircraftTypeCode>
+					</cns:IATA_AircraftType>
+				</cns:DatedOperatingLeg>
+				<cns:DatedOperatingLeg>
+					<cns:Arrival>
+						<cns:IATA_LocationCode>LHR</cns:IATA_LocationCode>
+					</cns:Arrival>
+					<cns:DatedOperatingLegID>LEG-2</cns:DatedOperatingLegID>
+					<cns:Dep>
+						<cns:IATA_LocationCode>JFK</cns:IATA_LocationCode>
+					</cns:Dep>
+					<cns:DistanceMeasure UnitCode="KM">5536</cns:DistanceMeasure>
+					<cns:IATA_AircraftType>
+						<cns:IATA_AircraftTypeCode>35J</cns:IATA_AircraftTypeCode>
+					</cns:IATA_AircraftType>
+				</cns:DatedOperatingLeg>
+			</cns:DatedOperatingLegList>
+			<cns:DatedOperatingSegmentList>
+				<cns:DatedOperatingSegment>
+					<cns:CarrierDesigCode>XB</cns:CarrierDesigCode>
+					<cns:CarrierName>XB Airlines</cns:CarrierName>
+					<cns:DatedOperatingLegRefID>LEG-1</cns:DatedOperatingLegRefID>
+					<cns:DatedOperatingSegmentId>OPESEG-1</cns:DatedOperatingSegmentId>
+					<cns:Duration>PT6H50M</cns:Duration>
+					<cns:OperatingCarrierFlightNumberText>0015</cns:OperatingCarrierFlightNumberText>
+					<cns:SecureFlightInd>true</cns:SecureFlightInd>
+				</cns:DatedOperatingSegment>
+				<cns:DatedOperatingSegment>
+					<cns:CarrierDesigCode>XB</cns:CarrierDesigCode>
+					<cns:CarrierName>XB Airlines</cns:CarrierName>
+					<cns:DatedOperatingLegRefID>LEG-2</cns:DatedOperatingLegRefID>
+					<cns:DatedOperatingSegmentId>OPESEG-2</cns:DatedOperatingSegmentId>
+					<cns:Duration>PT6H50M</cns:Duration>
+					<cns:OperatingCarrierFlightNumberText>0016</cns:OperatingCarrierFlightNumberText>
+					<cns:SecureFlightInd>false</cns:SecureFlightInd>
+				</cns:DatedOperatingSegment>
+			</cns:DatedOperatingSegmentList>
+			<cns:OriginDestList>
+				<cns:OriginDest>
+					<cns:DestCode>JFK</cns:DestCode>
+					<cns:OriginCode>LHR</cns:OriginCode>
+					<cns:OriginDestID>OD-1</cns:OriginDestID>
+					<cns:PaxJourneyRefID>JRN_LONNYC</cns:PaxJourneyRefID>
+				</cns:OriginDest>
+				<cns:OriginDest>
+					<cns:DestCode>LHR</cns:DestCode>
+					<cns:OriginCode>JFK</cns:OriginCode>
+					<cns:OriginDestID>OD-2</cns:OriginDestID>
+					<cns:PaxJourneyRefID>JRN_NYCLON</cns:PaxJourneyRefID>
+				</cns:OriginDest>
+			</cns:OriginDestList>
+			<cns:PaxJourneyList>
+				<cns:PaxJourney>
+					<cns:DistanceMeasure UnitCode="KM">5536</cns:DistanceMeasure>
+					<cns:Duration>PT6H50M</cns:Duration>
+					<cns:PaxJourneyID>JRN_LONNYC</cns:PaxJourneyID>
+					<cns:PaxSegmentRefID>SEG-LONNYC1</cns:PaxSegmentRefID>
+				</cns:PaxJourney>
+				<cns:PaxJourney>
+					<cns:DistanceMeasure UnitCode="KM">5536</cns:DistanceMeasure>
+					<cns:Duration>PT6H50M</cns:Duration>
+					<cns:PaxJourneyID>JRN_NYCLON</cns:PaxJourneyID>
+					<cns:PaxSegmentRefID>SEG-NYCLON2</cns:PaxSegmentRefID>
+				</cns:PaxJourney>
+			</cns:PaxJourneyList>
+			<cns:PaxList>
+				<cns:Pax>
+					<cns:Birthdate>1987-08-13</cns:Birthdate>
+					<cns:Individual>
+						<cns:Birthdate>1957-08-13</cns:Birthdate>
+						<cns:GenderCode>F</cns:GenderCode>
+						<cns:GivenName>Jane</cns:GivenName>
+						<cns:IndividualID>Pax1</cns:IndividualID>
+						<cns:Surname>Smith</cns:Surname>
+						<cns:TitleName>Mrs</cns:TitleName>
+					</cns:Individual>
+					<cns:PaxID>Pax1</cns:PaxID>
+					<cns:ProfileConsentInd>true</cns:ProfileConsentInd>
+					<cns:PTC>ADT</cns:PTC>
+					<cns:ResidenceCountryCode>UK</cns:ResidenceCountryCode>
+				</cns:Pax>
+			</cns:PaxList>
+			<cns:PaxSegmentList>
+				<cns:PaxSegment>
+					<cns:CabinTypeAssociationChoice>
+						<cns:SegmentCabinType>
+							<cns:CabinTypeCode>3</cns:CabinTypeCode>
+							<cns:CabinTypeName>ECO-FLEX</cns:CabinTypeName>
+						</cns:SegmentCabinType>
+					</cns:CabinTypeAssociationChoice>
+					<cns:DatedMarketingSegmentRefId>MKTSEG-1</cns:DatedMarketingSegmentRefId>
+					<cns:MarketingCarrierRBD_Code>Q</cns:MarketingCarrierRBD_Code>
+					<cns:PaxSegmentID>SEG-LONNYC1</cns:PaxSegmentID>
+				</cns:PaxSegment>
+				<cns:PaxSegment>
+					<cns:CabinTypeAssociationChoice>
+						<cns:SegmentCabinType>
+							<cns:CabinTypeCode>3</cns:CabinTypeCode>
+							<cns:CabinTypeName>ECO-FLEX</cns:CabinTypeName>
+						</cns:SegmentCabinType>
+					</cns:CabinTypeAssociationChoice>
+					<cns:DatedMarketingSegmentRefId>MKTSEG-2</cns:DatedMarketingSegmentRefId>
+					<cns:MarketingCarrierRBD_Code>Q</cns:MarketingCarrierRBD_Code>
+					<cns:PaxSegmentID>SEG-NYCLON2</cns:PaxSegmentID>
+				</cns:PaxSegment>
+			</cns:PaxSegmentList>
+			<cns:PriceClassList>
+				<cns:PriceClass>
+					<cns:Code>M-EFO</cns:Code>
+					<cns:FareBasisCode>QBY08IZ2</cns:FareBasisCode>
+					<cns:Name>Economy Flex</cns:Name>
+					<cns:PriceClassID>PC1</cns:PriceClassID>
+				</cns:PriceClass>
+			</cns:PriceClassList>
+			<cns:ServiceDefinitionList>
+				<cns:ServiceDefinition>
+					<cns:AirlineTaxonomy>
+						<cns:TaxonomyCode>00C8</cns:TaxonomyCode>
+						<!-- servicing value store -->
+					</cns:AirlineTaxonomy>
+					<cns:Name>VALUE STORE</cns:Name>
+					<cns:OwnerCode>XB</cns:OwnerCode>
+					<cns:RFIC>C</cns:RFIC>
+					<cns:RFISC>ABC</cns:RFISC>
+					<cns:ServiceDefinitionID>SVC-3</cns:ServiceDefinitionID>
+				</cns:ServiceDefinition>
+			</cns:ServiceDefinitionList>
+		</cns:DataLists>
+		<cns:Order>
+			<cns:OrderID>XB000A1B2C3D4</cns:OrderID>
+			<cns:OwnerCode>XB</cns:OwnerCode>
+		</cns:Order>
+		<cns:ReshopResults>
+			<cns:ReshopOffers>
+				<cns:RequotedOffer>
+					<cns:AddedOfferItem>
+						<cns:ExistingOrderItem>
+							<cns:ExistingService>
+								<cns:FutureStatusCode>CANCELLED</cns:FutureStatusCode>
+								<cns:ServiceRefID>SRV01</cns:ServiceRefID>
+							</cns:ExistingService>
+							<cns:ExistingService>
+								<cns:FutureStatusCode>CANCELLED</cns:FutureStatusCode>
+								<cns:ServiceRefID>SRV02</cns:ServiceRefID>
+							</cns:ExistingService>
+							<cns:OrderItemRefID>XB123A1B2C3D4-1</cns:OrderItemRefID>
+						</cns:ExistingOrderItem>
+						<cns:OfferItemID>XB123A1B2C3D4-OFFERITEM-EXCHANGE-1</cns:OfferItemID>
+						<cns:ReshopPrice>
+							<cns:PriceDifferential>
+								<cns:DifferentialTypeCode>EvenExchange</cns:DifferentialTypeCode>
+								<cns:DiffPrice>
+									<cns:FareDetail>
+										<cns:FareIndCode>1</cns:FareIndCode>
+										<cns:PaxRefID>Pax1</cns:PaxRefID>
+										<cns:Price>
+											<cns:BaseAmount CurCode="NUC">0</cns:BaseAmount>
+											<cns:DueToAirlineAmount CurCode="NUC">0</cns:DueToAirlineAmount>
+											<cns:TaxSummary>
+												<cns:TotalTaxAmount CurCode="NUC">0</cns:TotalTaxAmount>
+											</cns:TaxSummary>
+											<cns:TotalAmount CurCode="NUC">0</cns:TotalAmount>
+										</cns:Price>
+									</cns:FareDetail>
+									<cns:Price/>
+								</cns:DiffPrice>
+								<cns:NewPrice>
+									<cns:FareDetail>
+										<cns:FareComponent>
+											<cns:FareBasisCode>QBY08IZ2</cns:FareBasisCode>
+											<cns:FareTypeCode>PUBLIC</cns:FareTypeCode>
+											<cns:PaxSegmentRefID>SEG-LONNYC1</cns:PaxSegmentRefID>
+											<cns:PriceClassRefID>PC1</cns:PriceClassRefID>
+										</cns:FareComponent>
+										<cns:FareComponent>
+											<cns:FareBasisCode>QBY08IZ2</cns:FareBasisCode>
+											<cns:FareTypeCode>PUBLIC</cns:FareTypeCode>
+											<cns:PaxSegmentRefID>SEG-NYCLON2</cns:PaxSegmentRefID>
+											<cns:PriceClassRefID>PC1</cns:PriceClassRefID>
+										</cns:FareComponent>
+										<cns:PaxRefID>Pax1</cns:PaxRefID>
+										<cns:Price>
+											<!-- By default sell amount -->
+											<cns:BaseAmount CurCode="NUC">9000</cns:BaseAmount>
+											<cns:TaxSummary>
+												<cns:Tax>
+													<cns:Amount CurCode="NUC">50</cns:Amount>
+													<cns:CollectionPointTax>
+														<cns:AirportAmount>50</cns:AirportAmount>
+														<cns:Station>
+															<cns:IATA_LocationCode>JFK</cns:IATA_LocationCode>
+														</cns:Station>
+													</cns:CollectionPointTax>
+													<cns:TaxCode>XF</cns:TaxCode>
+													<cns:TaxName>XF Tax</cns:TaxName>
+												</cns:Tax>
+												<cns:Tax>
+													<cns:Amount CurCode="NUC">950</cns:Amount>
+													<cns:TaxCode>YQ</cns:TaxCode>
+													<cns:TaxName>Carrier surcharge</cns:TaxName>
+												</cns:Tax>
+												<cns:TotalTaxAmount CurCode="NUC">950</cns:TotalTaxAmount>
+											</cns:TaxSummary>
+										</cns:Price>
+									</cns:FareDetail>
+									<cns:Price>
+										<cns:BaseAmount CurCode="NUC">9000</cns:BaseAmount>
+										<cns:TaxSummary>
+											<cns:Tax>
+												<cns:Amount CurCode="NUC">50</cns:Amount>
+												<cns:CollectionPointTax>
+													<cns:AirportAmount>50</cns:AirportAmount>
+													<cns:Station>
+														<cns:IATA_LocationCode>JFK</cns:IATA_LocationCode>
+													</cns:Station>
+												</cns:CollectionPointTax>
+												<cns:TaxCode>XF</cns:TaxCode>
+												<cns:TaxName>XF Tax</cns:TaxName>
+											</cns:Tax>
+											<cns:Tax>
+												<cns:Amount CurCode="NUC">950</cns:Amount>
+												<cns:TaxCode>YQ</cns:TaxCode>
+												<cns:TaxName>Carrier surcharge</cns:TaxName>
+											</cns:Tax>
+											<cns:TotalTaxAmount CurCode="NUC">950</cns:TotalTaxAmount>
+										</cns:TaxSummary>
+									</cns:Price>
+								</cns:NewPrice>
+								<cns:OldPrice>
+									<cns:FareDetail>
+										<cns:FareComponent>
+											<cns:FareBasisCode>QBY08IZ2</cns:FareBasisCode>
+											<cns:FareTypeCode>PUBLIC</cns:FareTypeCode>
+											<cns:PaxSegmentRefID>SEG-LONNYC1-0</cns:PaxSegmentRefID>
+											<cns:PriceClassRefID>PC1</cns:PriceClassRefID>
+										</cns:FareComponent>
+										<cns:FareComponent>
+											<cns:FareBasisCode>QBY08IZ2</cns:FareBasisCode>
+											<cns:FareTypeCode>PUBLIC</cns:FareTypeCode>
+											<cns:PaxSegmentRefID>SEG-NYCLON2-0</cns:PaxSegmentRefID>
+											<cns:PriceClassRefID>PC1</cns:PriceClassRefID>
+										</cns:FareComponent>
+										<cns:PaxRefID>Pax1</cns:PaxRefID>
+										<cns:Price>
+											<!-- By default sell amount -->
+											<cns:BaseAmount CurCode="NUC">9000</cns:BaseAmount>
+											<cns:TaxSummary>
+												<cns:Tax>
+													<cns:Amount CurCode="NUC">50</cns:Amount>
+													<cns:CollectionPointTax>
+														<cns:AirportAmount>50</cns:AirportAmount>
+														<cns:Station>
+															<cns:IATA_LocationCode>JFK</cns:IATA_LocationCode>
+														</cns:Station>
+													</cns:CollectionPointTax>
+													<cns:TaxCode>XF</cns:TaxCode>
+													<cns:TaxName>XF Tax</cns:TaxName>
+												</cns:Tax>
+												<cns:Tax>
+													<cns:Amount CurCode="NUC">950</cns:Amount>
+													<cns:TaxCode>YQ</cns:TaxCode>
+													<cns:TaxName>Carrier surcharge</cns:TaxName>
+												</cns:Tax>
+												<cns:TotalTaxAmount CurCode="NUC">950</cns:TotalTaxAmount>
+											</cns:TaxSummary>
+										</cns:Price>
+									</cns:FareDetail>
+									<cns:Price>
+										<cns:BaseAmount CurCode="NUC">9000</cns:BaseAmount>
+										<cns:TaxSummary>
+											<cns:Tax>
+												<cns:Amount CurCode="NUC">50</cns:Amount>
+												<cns:CollectionPointTax>
+													<cns:AirportAmount>50</cns:AirportAmount>
+													<cns:Station>
+														<cns:IATA_LocationCode>JFK</cns:IATA_LocationCode>
+													</cns:Station>
+												</cns:CollectionPointTax>
+												<cns:TaxCode>XF</cns:TaxCode>
+												<cns:TaxName>XF Tax</cns:TaxName>
+											</cns:Tax>
+											<cns:Tax>
+												<cns:Amount CurCode="NUC">950</cns:Amount>
+												<cns:TaxCode>YQ</cns:TaxCode>
+												<cns:TaxName>Carrier surcharge</cns:TaxName>
+											</cns:Tax>
+											<cns:TotalTaxAmount CurCode="NUC">950</cns:TotalTaxAmount>
+										</cns:TaxSummary>
+									</cns:Price>
+								</cns:OldPrice>
+							</cns:PriceDifferential>
+						</cns:ReshopPrice>
+						<cns:Service>
+							<cns:OfferServiceAssociation>
+								<cns:PaxJourneyRef>
+									<cns:PaxJourneyRefID>JRN_LONNYC</cns:PaxJourneyRefID>
+									<cns:PaxJourneyRefID>JRN_NYCLON</cns:PaxJourneyRefID>
+								</cns:PaxJourneyRef>
+							</cns:OfferServiceAssociation>
+							<cns:PaxRefID>Pax1</cns:PaxRefID>
+                            <cns:ServiceID>SRV10</cns:ServiceID>
+						</cns:Service>			
+					</cns:AddedOfferItem>
+					<cns:BaggageAssociations>
+						<cns:BaggageAllowanceRefID>BAG-1</cns:BaggageAllowanceRefID>
+						<cns:PaxRefID>Pax1</cns:PaxRefID>
+					</cns:BaggageAssociations>
+					<cns:OfferExpirationTimeLimitDateTime>2022-01-17T09:30:47Z</cns:OfferExpirationTimeLimitDateTime>
+					<cns:OfferID>REQUOTED_OFFER001</cns:OfferID>
+					<cns:OwnerCode>XB</cns:OwnerCode>
+				</cns:RequotedOffer>
+			</cns:ReshopOffers>
+		</cns:ReshopResults>
+	</n1:Response>
+</n1:IATA_OrderReshopRS>

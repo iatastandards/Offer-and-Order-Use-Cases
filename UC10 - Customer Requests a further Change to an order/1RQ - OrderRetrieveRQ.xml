@@ -1,0 +1,20 @@
+<n1:IATA_OrderRetrieveRQ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n2="http://www.altova.com/samplexml/other-namespace" xmlns:n1="http://www.iata.org/IATA/2015/EASD/00/IATA_OffersAndOrdersMessage" xmlns:cns="http://www.iata.org/IATA/2015/EASD/00/IATA_OffersAndOrdersCommonTypes" xsi:schemaLocation="http://www.iata.org/IATA/2015/EASD/00/IATA_OffersAndOrdersMessage file:///C:/iata/21.3.1/IATA_OrderRetrieveRQ.xsd">
+	<n1:DistributionChain>
+		<cns:DistributionChainLink>
+			<cns:Ordinal>0</cns:Ordinal>
+			<cns:OrgRole>Distributor</cns:OrgRole>
+			<cns:ParticipatingOrg>
+				<cns:Name>token</cns:Name>
+				<cns:OrgID>token</cns:OrgID>
+			</cns:ParticipatingOrg>
+		</cns:DistributionChainLink>
+	</n1:DistributionChain>
+	<n1:Request>
+		<cns:OrderValidationFilterCriteria>
+			<cns:OrderFilterCriteria>
+				<cns:OrderID>XB000A1B2C3D4</cns:OrderID>
+				<cns:OwnerCode>XB</cns:OwnerCode>
+			</cns:OrderFilterCriteria>
+		</cns:OrderValidationFilterCriteria>
+	</n1:Request>
+</n1:IATA_OrderRetrieveRQ>
